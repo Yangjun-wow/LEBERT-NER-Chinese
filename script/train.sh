@@ -28,7 +28,7 @@ python train.py \
     --dataset_name ${DATA_SET} \
     --model_class ${MODEL_CLASS} \
     --pretrain_model_path pretrain_model/${PRETRAIN_MODEL} \
-    --pretrain_embed_path /content/drive/MyDrive/tencent-ailab-embedding-zh-d200-v0.2.0-s/tencent-ailab-embedding-zh-d200-v0.2.0-s.txt \
+    --pretrain_embed_path /content/tencent-ailab-embedding-zh-d200-v0.2.0-s/tencent-ailab-embedding-zh-d200-v0.2.0-s.txt \
     --seed 42 \
     --markup bios \
     --grad_acc_step 1 \
